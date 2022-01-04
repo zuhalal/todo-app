@@ -1,9 +1,10 @@
 # TODO APP REST API
 
 
-# GET All Task List
+## GET All Task List
 ### Method: GET
 #### URL: /todo/list-task/
+
 
 #### example response: 
 [
@@ -17,7 +18,8 @@
     }
 ]
 
-# Add Task
+
+## Add Task
 ### Method: POST
 #### URL: /todo/add-task/
 
@@ -38,7 +40,8 @@
     "updated_at": "2022-01-04T02:39:43.451145Z"
 }
 
-# Update Task
+
+## Update Task
 ### Method: PUT
 #### URL: /todo/update-task/<int:id>/
 
@@ -61,7 +64,8 @@
     "updated_at": "2022-01-04T02:42:29.266742Z"
 }
 
-# Delete task
+
+## Delete task
 ### Method: DELETE
 #### URL: /todo/delete-task/<int:id>/
 #### example request:
